@@ -11,7 +11,7 @@
 <style>
  img
 	{
-			width:150px; height:50px; margin:0px;
+			width:150px; height:50px; margin:0px auto;
 	}
 content 
 {
@@ -35,22 +35,26 @@ footer
 </head>
 <body>
 
-<header>
-<jsp:include page="module/header.jsp" />
-</header>
-<div><img alt="" src=""></div>
-<nav>
-<jsp:include page="module/nav.jsp" />
-</nav>
-
-
-
-<content></content>
-<section></section>
-
-<footer>
-	<%@ include file="jsp/footerContents.jsp" %>
-</footer>
+	<header>
+		<jsp:include page="module/header.jsp" />
+	</header>
+	
+	<div align="center">
+		<a href="Main.jsp"><img alt="" src=""></a>
+	</div>
+	
+	<nav>
+		<jsp:include page="module/nav.jsp" />
+	</nav>
+	
+	
+	
+	<content></content>
+	<section></section>
+	
+	<footer>
+		<%@ include file="jsp/footerContents.jsp" %>
+	</footer>
 
 </body>
 </html>
