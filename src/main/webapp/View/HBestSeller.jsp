@@ -1,7 +1,3 @@
-<!-
-	베스트셀러로 들어갔을때 처음 뜨는 화면
-	종합 카테고리 누르면 감
-  -->
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
