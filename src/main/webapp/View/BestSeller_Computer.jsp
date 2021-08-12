@@ -101,7 +101,7 @@ div a {text-decoration:none; color:black;}
 	
 	ArrayList<BoardBean> blist = bMgr.getBoardList(keyField, keyWord, start, end);
 %>
-<script type="text/javascript" src="./js/asidemenu.js"/>
+
 <script>
 	
 	function paging(page){
