@@ -21,10 +21,14 @@ content
 	margin:4px;
 	border: 1px solid gray;
 }
-div{height:50px;}
+	nav 	
+{
+	width:1190px; height:100px;  border:1px solid gray;
+	font-size:15px;
+}
 footer
 {
-	width:1190px; height:200px; 
+	width:1190px; height:500px; 
 	border:1px solid gray;
 	position:absolute; top:960px; left:0px;
 	margin: 4px;
@@ -34,22 +38,21 @@ footer
 
 </head>
 <body>
-
 	<header>
 		<jsp:include page="module/header.jsp" />
 	</header>
-	
-	<div align="center">
-		<a href="Main.jsp"><img alt="" src=""></a>
-	</div>
-	
 	<nav>
 		<jsp:include page="module/nav.jsp" />
 	</nav>
 	
-	
-	
-	<content></content>
+	<content>
+	애니메이션<br>
+==============================MOVIE SELECTION================<br>
+영화 예고편<br>
+==============================EVENT================ <br>
+CGV스페셜|영화예매|CGV아트하우스|제휴<br>
+공지사항
+	</content>
 	<section></section>
 	
 	<footer>

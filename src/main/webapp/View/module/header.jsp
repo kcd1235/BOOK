@@ -13,7 +13,7 @@
 	}
 	header ul
 	{
-		position:absolute; top:15px; left:800px;
+		position:absolute; top:15px; left:600px;
 		font-size:12px;
 	}
 	header li
@@ -35,15 +35,19 @@
 
 <ul class="u1">
 	<li><a href="Main.jsp">Home</a>&nbsp;&nbsp;|</li>
-	<li>&nbsp;&nbsp;<a href="Book.jsp">국내도서</a>&nbsp;&nbsp;|</li>
-	<li>&nbsp;&nbsp;<a href="FBook.jsp">외국도서</a>&nbsp;&nbsp;|</li>
-	<li>&nbsp;&nbsp;<a href="EBook.jsp">ebook</a></li>
+	<li>&nbsp;&nbsp;<a href="Book.jsp">CGV APP</a>&nbsp;&nbsp;</li>
+	<li>&nbsp;&nbsp;<a href="FBook.jsp">Like</a>&nbsp;&nbsp;</li>
+	<li>&nbsp;&nbsp;<a href="EBook.jsp">Follow</a></li>
+	<li>&nbsp;&nbsp;<a href="EBook.jsp">알뜰한 영화관람법</a></li>
 </ul>
 <ul>
 	<li><a href="MemberJoin.jsp">회원가입</a>&nbsp;&nbsp;|</li>
 	<li>&nbsp;&nbsp;<a href="Login.jsp">로그인</a>&nbsp;&nbsp;|</li>
-	<li>&nbsp;&nbsp;<a href="#">장바구니</a>&nbsp;&nbsp;|</li>
-	<li>&nbsp;&nbsp;<a href="CustomerService.jsp">고객센터</a></li>
+	<li>&nbsp;&nbsp;<a href="#">MyCGV</a>&nbsp;&nbsp;|</li>
+	<li>&nbsp;&nbsp;<a href="CustomerService.jsp">VIP LOUNGE</a></li>
+	<li><a href="MemberJoin.jsp">Club서비스</a>&nbsp;&nbsp;|</li>
+	<li>&nbsp;&nbsp;<a href="Login.jsp">고객센터</a>&nbsp;&nbsp;|</li>
+	<li>&nbsp;&nbsp;<a href="#">ENGLISH TICKETING</a>&nbsp;&nbsp;</li>
 </ul>
 
 </body>
